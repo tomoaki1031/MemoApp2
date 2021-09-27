@@ -8,7 +8,7 @@ import CircleButton from '../components/CircleButton';
 export default function MemoDetailScreen(props) {
   const { navigation } = props;
   return (
-    <View style={styles.contsiner}>
+    <View style={styles.container}>
       <View style={styles.memoHeader}>
         <Text style={styles.memoTitle}>買い物リスト</Text>
         <Text style={styles.memoDate}>2021年9月18日 10:00</Text>
