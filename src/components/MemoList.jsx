@@ -61,7 +61,7 @@ export default function MemoList(props) {
     <View style={styles.container}>
       <FlatList
         data={memos}
-        renderItem = {renderItem}
+        renderItem={renderItem}
         keyExtractor={(item) => item.id}
       />
     </View>
