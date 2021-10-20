@@ -50,10 +50,11 @@ export default function MemoListScreen(props) {
   if (memos.length === 0) {
     return (
       <View style={emptyStyles.container}>
+
         <View style={emptyStyles.inner}>
           <Text style={emptyStyles.title}>最初のメモを作成しましょう</Text>
           <Button
-            style={emptyStyles.Button}
+            style={emptyStyles.button}
             label="作成する"
             onPress={() => { navigation.navigate('MemoCreate'); }}
           />
